@@ -6,7 +6,7 @@ import web from "../../img/web.png";
 import app from "../../img/app-development.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import cv from './CV rabah kenamda.19e2051bb5b9e24aff09.pdf';
+import cv from './CV rabah kenamda.pdf';
 
 const Services = () => {
   // context
@@ -26,14 +26,8 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
-          Welcome to my world of creativity and innovation! I'm a seasoned
-          <br />
-          Fullstack Developer, Flutter enthusiast, and Logo Designer. Join
-          <br />
-          me on this exciting journey where I blend code and design to craft
-          <br />
-          remarkable digital experiences.
+        <spane style={{ color: darkMode ? "white" : "" }}>
+          Welcome to my world of creativity and innovation!
         </spane>
         <a href={cv} download>
           <button className="button s-button">Download CV</button>
