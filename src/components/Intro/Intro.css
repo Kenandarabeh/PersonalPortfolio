@@ -84,6 +84,11 @@ bottom: 130px;
     gap: 7rem;
     height: 64rem;
   }
+    .i-name> :nth-child(3) {
+
+    color: var(--gray);
+  }
+  
   .i-right > :nth-child(1) {
     transform: scale(0.55);
     left: -62%;
