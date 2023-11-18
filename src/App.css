@@ -2,16 +2,18 @@
   --yellow: #2c4ef5;
   --orange: #1a89e2;
   --black: #242D49;
-  --gray: #788097;
+  --gray: #5b5e65;
   --blueCard: #DDF8FE;
   --purple: rgb(238 210 255);
   --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
   --orangeCard: #1a89e2(252, 166, 31, 0.45);
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
-*{
+
+* {
   font-family: 'Arial', sans-serif;
 }
+
 .App {
   padding: 0.5rem 3.5rem;
   overflow: hidden;
