@@ -63,7 +63,9 @@
     height: 66rem;
     padding: 0;
   }
-
+.awesome > :nth-child(3) {
+    color: var(--gray);
+  }
   .cards {
     display: flex;
     flex-direction: column;
