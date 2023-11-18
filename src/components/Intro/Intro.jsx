@@ -24,7 +24,7 @@ const Intro = () => {
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hi I Am</span>
           <span>Kenanda Rabah</span>
-          <span>
+          <span  style={{ color: darkMode ? "white" : "" }}>
             As an adaptable Fullstack Developer, I weave web design, Flutter-powered Android/iOS apps, and graphic design into a symphony of excellence, all aimed at creating delightful user experiences.
           </span>
         </div>
