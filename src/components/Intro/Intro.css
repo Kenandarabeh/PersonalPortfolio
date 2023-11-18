@@ -1,0 +1,133 @@
+.Intro {
+  display: flex;
+  height: 77vh;
+  margin-top: 6rem;
+}
+
+/* left side styling */
+.i-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+}
+.i-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.i-name > :nth-child(1) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(2) {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(3) {
+  font-weight: 100;
+  font-size: 14px;
+  color: var(--gray);
+  margin-top: 10px;
+}
+.i-button {
+  width: 6rem;
+  height: 2rem;
+}
+.i-icons {
+  margin-top: 3rem;
+  display: flex;
+  gap: 0rem;
+}
+.i-icons > * {
+  transform: scale(0.5);
+}
+.i-icons > *:hover {
+  cursor: pointer;
+}
+/* right side styling */
+.i-right {
+  flex: 0.8;
+bottom: 130px;
+  position: relative;
+}
+.i-right > * {
+  position: absolute;
+  z-index: 1;
+}
+.i-right > :nth-child(1) {
+  transform: scale(0.80);
+  left: -9%;
+  top: -0%;
+}
+
+/* blur */
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  filter: blur(212px);
+  z-index: -9;
+  top: -18%;
+  left: 56%;
+  filter: blur(72px);
+}
+
+@media screen and (max-width: 480px) {
+  .Intro {
+    flex-direction: column;
+    gap: 7rem;
+    height: 64rem;
+  }
+  .i-right > :nth-child(1) {
+    transform: scale(0.55);
+    left: -62%;
+    top: -9%;
+  }
+  .i-right .blur {
+    display: none;
+  }
+  .floating-div:nth-of-type(1){
+    /* display: none; */
+    top: -7rem !important;;
+  }
+
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  /* Styles */
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+  /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  /* Styles */
+}

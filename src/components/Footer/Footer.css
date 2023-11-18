@@ -1,0 +1,52 @@
+.footer {
+  display: flex;
+  align-items: center;
+  margin: -0.5rem -3.5rem;
+  position: relative;
+  margin-top: -7rem;
+}
+
+.f-content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2rem;
+  gap: 2rem;
+  color: white;
+}
+
+.f-icons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+.f-bottom-text {
+  position: absolute;
+  bottom: -6rem;
+  /* Adjust this value to control the distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 13px;
+  font-family: 'Arial', sans-serif;
+  /* Use a web-safe font or specify a custom font here */
+
+}
+
+.icon-rabah {
+  width: 3rem;
+  /* Adjust the width of the image */
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+@media screen and (max-width: 480px) {
+  .f-content {
+    transform: scale(.5);
+  }
+}
