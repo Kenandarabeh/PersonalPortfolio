@@ -6,7 +6,8 @@ import web from "../../img/web.png";
 import app from "../../img/app-development.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import cv from './CV rabah kenamda.pdf';
+import cv from './CV rabah kenamda.19e2051bb5b9e24aff09.pdf
+';
 
 const Services = () => {
   // context
